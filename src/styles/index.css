@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+.main-header {
+  color: black;
+}
+
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#logo {
+  flex: 2 1 40rem;
+  font-weight: 400;
+  font-size: 5rem;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: black;
+}
+
+nav ul a span {
+  margin: 0.5rem;
+}
+
+.main-page {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  justify-content: center;
+  padding-bottom: 25rem;
+}
+
+.main-page h4 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.main-page h1 {
+  font-size: 7rem;
+}
+
+.main-page p {
+  font-size: 2.1rem;
+  padding-top: 1rem;
+}
+
+.main-page button {
+  width: 20rem;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  margin-top: 4rem;
+  background: none;
+  border: 0.2rem solid black;
+}
